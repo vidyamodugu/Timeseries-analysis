@@ -1,14 +1,6 @@
 ##clear workspace
 rm(list=ls())
 
-## Set working directory
-
-setwd("C:\\Users\\rishi\\Downloads")
-## Load helpful functions
-
-
-source('C:\\Users\\rishi\\Downloads\\helpfulFunctions.R')
-## Loading data
 library(gdata)  
 
 data1 <- read.csv(file.choose(), header = T)
@@ -45,8 +37,6 @@ nd <- ndiffs(xstar)
 if(nd > 0) {
   xstar <- diff(xstar,differences=nd)
 } 
-
-
 
 acf()
 
