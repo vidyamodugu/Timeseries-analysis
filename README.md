@@ -31,3 +31,16 @@ The data was split into two timelines.
 The ARIMA model was run on the “First timeline” to predict 2016 Revenues. 
 The predicted results obtained for 2016 was compared to the actual 2016 observations from the “Second timeline” and the efficiency of the model prediction was confirmed. 
 2017 Revenues were predicted by running the ARIMA model on the whole dataset (2010 to 2016 observations) 
+
+
+
+REQUIRMENT:
+R STUDIO
+
+PACKAGES:
+(forecast)
+(doBy)
+(DescTools)
+(caret)
+(fracdiff)
+
